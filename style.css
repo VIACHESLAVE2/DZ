@@ -1,0 +1,22 @@
+li {
+    list-style-type: none; 
+    display:inline-block;
+    color: white;
+    background:grey; 
+	padding:62px;  
+}
+.menu-submenu{
+	position: absolute;
+	display: none;
+}
+li:hower .menu-submenu{
+	display: block;
+	display: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 1em;
+	white-space: nowrap; 
+}
